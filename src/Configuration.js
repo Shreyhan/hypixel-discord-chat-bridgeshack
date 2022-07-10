@@ -34,7 +34,7 @@ class Configuration {
     MINECRAFT_PASSWORD: val => (this.properties.minecraft.password = val),
     MINECRAFT_LOBBY_HOLDER: val => (this.properties.minecraft.lobbyHolder = val),
     MINECRAFT_ACCOUNT_TYPE: val => (this.properties.minecraft.accountType = val),
-    DISCORD_TOKEN: val => (this.properties.discord.token = val),
+    DISCORD_TOKEN: val => (process.env.TOKEN = val),
     DISCORD_CHANNEL: val => (this.properties.discord.channel = val),
     DISCORD_COMMAND_ROLE: val => (this.properties.discord.commandRole = val),
     DISCORD_OWNER_ID: val => (this.properties.discord.ownerId = val),
