@@ -13,7 +13,7 @@ services:
       MINECRAFT_PASSWORD: yourPassword
       MINECRAFT_LOBBY_HOLDER: lobbyHolder
       MINECRAFT_ACCOUNT_TYPE: mojang
-      DISCORD_TOKEN: yourDiscordToken
+      DISCORD_TOKEN: process.env.TOKEN
       DISCORD_CHANNEL: discordChannelId
       DISCORD_COMMAND_ROLE: discordCommandRoleId
       DISCORD_OWNER_ID: discordOwnerId

@@ -10,7 +10,7 @@ ENV MINECRAFT_USERNAME=yourUsername
 ENV MINECRAFT_PASSWORD=yourPassword
 ENV MINECRAFT_ACCOUNT_TYPE=microsoft
 # Discord Account
-ENV DISCORD_TOKEN=yourDiscordToken
+ENV DISCORD_TOKEN=process.env.TOKEN
 # Discord Settings
 ENV DISCORD_CHANNEL=discordChannelId
 ENV DISCORD_COMMAND_ROLE=discordCommandRoleId

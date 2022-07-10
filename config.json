@@ -1,25 +1,25 @@
 {
-  'server': {
-    'host': 'mc.hypixel.net',
-    'port': 25565
+  "server": {
+    "host": "mc.hypixel.net",
+    "port": 25565
   },
-  'minecraft': {
-    'username': 'derek1233alt@gmail.com',
-    'password': 'BigChungus69!',
-    'lobbyHolder': 'ignUsername',
-    'accountType': 'microsoft'
+  "minecraft": {
+    "username": "derek1233alt@gmail.com",
+    "password": "BigChungus69!",
+    "lobbyHolder": "ignUsername",
+    "accountType": "microsoft"
   },
-  'discord': {
-    'token': 'process.env.TOKEN',
-    'channel': '980580874091397190',
-    'commandRole': '995459376104079410',
-    'ownerId': '253796217820151808',
-    'prefix': '!',
-    'messageMode': 'bot'
+  "discord": {
+    "token": process.env.TOKEN,
+    "channel": "980580874091397190",
+    "commandRole": "995459376104079410",
+    "ownerId": "253796217820151808",
+    "prefix": "!",
+    "messageMode": "bot"
   },
-  'express': {
-    'enabled': false,
-    'port': 8880,
-    'authorization': 'authorizationHeaderString'
+  "express": {
+    "enabled": false,
+    "port": 8880,
+    "authorization": "authorizationHeaderString"
   }
 }
